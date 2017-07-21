@@ -15,6 +15,6 @@ class beritaController extends Controller
      */
     public function index()
     {
-        return view('prjct.berita');
+        return view('berita.berita');
     }
 }

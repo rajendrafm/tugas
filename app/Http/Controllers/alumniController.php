@@ -15,6 +15,6 @@ class alumniController extends Controller
      */
     public function index()
     {
-        return view('prjct.alumni');
+        return view('alumni.alumni');
     }
 }

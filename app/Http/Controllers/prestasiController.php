@@ -15,6 +15,6 @@ class prestasiController extends Controller
      */
     public function index()
     {
-        return view('prjct.prestasi');
+        return view('prestasi.prestasi');
     }
 }

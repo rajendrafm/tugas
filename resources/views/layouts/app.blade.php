@@ -36,7 +36,14 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        &nbsp;
+                    @if (Auth::check())
+                        <!-- <li><a href=" {{ url('home') }}">Dashboard</li> -->
+                        <li><a href=" {{ route('prestasi') }}">Prestasi</li>
+                        <li><a href=" {{ route('alumni') }}">Prestasi</li>
+                        <li><a href=" {{ route('berita') }}">Prestasi</li>
+                        <li><a href=" {{ route('kurikulum') }}">Prestasi</li>
+                        <li><a href=" {{ route('contacts') }}">Prestasi</li>
+                        @endif
                     </ul>
 
                     <!-- Right Side Of Navbar -->

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class alumnisTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(alumnisTableSeeder::class);
+        $alumni= alumni::create(['title'=>'Angkatan 2015','isi'=>'ALUMNI','alumni_id'=>$alumni1->id]);
+        
     }
 }

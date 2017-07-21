@@ -15,6 +15,6 @@ class kurikulumController extends Controller
      */
     public function index()
     {
-        return view('prjct.kurikulum');
+        return view('kurikulum.kurikulum');
     }
 }
